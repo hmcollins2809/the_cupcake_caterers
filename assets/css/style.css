@@ -29,8 +29,18 @@ header {
 
 h1 {
     font-family: "Quattrocento Sans", sans-serif;
-    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
     color: black;
+}
+
+h2 {
+    font-family: "Quattrocento Sans", sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 200;
+
 }
 
 #logo {
@@ -47,6 +57,9 @@ h1 {
 
 .menu a {
     text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Quattrocento Sans", sans-serif;
     color: inherit;
 }
 
@@ -70,19 +83,15 @@ h1 {
     background-position: fixed;
 }
 
-.testimonials {
-
-    display: inline-block;
-}
-
-.testimonials div {
+.testimonials-box {
 
     height: 300px;
-    width: 300px;
-    border: solid 1px black; 
-
-
+    width: 30%;
+    display: inline-block;
+    border: solid 1px black;
+    box-sizing: border-box;
 }
+
 footer {
     height: 150px; 
     width: 100%;
