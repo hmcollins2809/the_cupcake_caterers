@@ -142,3 +142,64 @@ footer {
     padding-top: 20px;
 
 }
+
+.form-section {
+    clear: left;
+    background: url("../images/pexels-polina-kovaleva-9095555(1).jpg")
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: auto;
+}
+
+.contact-us {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: relative;
+    left: 30%;
+    padding: 30px;
+}
+
+
+.contact-us h2 {
+    
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input{
+    
+    background: whitesmoke;
+    color: #fafafa;
+    width: 50%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    
+}
+
+.text-input:hover {
+    
+    border-color: darkolivegreen;
+}
+
+.contact-us-button {
+    
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: darkolivegreen;
+    color: #fafafa;
+    display: block;
+}
+
+.contact-us-button:hover {
+    
+    background-color: #fafafa;
+    color: #f16c6b;
+}
