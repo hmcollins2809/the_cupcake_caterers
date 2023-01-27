@@ -35,25 +35,40 @@
             </ul>
         </nav>
     </header>
-    <section>Form goes here</section>
+    
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-us">
+            <h2>Contact Us</h2>
+            
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" class="text-input" required>
+            
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" placeholder="Enter your message here" rows="10" cols="40">Enter your message here</textarea>
+            
+            <p>Would you like to sign up to our newsletter?</p>
+
+            <label for="newsletter-yes">Yes</label>
+            <input type="radio" id="newsletter-yes" name="newsletter_consent" value="yes" required>
+            
+            <label for="newsletter-no">No</label>
+            <input type="radio" id="newsletter-no" name="newsletter_consent" value="no">
+            
+            <input type="submit" value="Enter" class="contact-us-button">
+            
+        </form>
+    </section>
     
     <footer>
 
-        <ul>
-            <li>
-                Address: 9 Green Street
-                Dublin 5
-                Dublin 
-                Ireland
-
-            </li>
-            <li>
-                Phone number: 01 234 56788
-            </li>
-            <li>
-                Email: thecupcakecaterers@gmail.com
-            </li>
-        </ul>
+    
         <ul>
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Find Us on Facebook (opens in a new tab)">

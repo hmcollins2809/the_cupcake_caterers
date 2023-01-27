@@ -13,6 +13,7 @@ body {
     font-family: "Quattrocento", serif;
     font-weight: 400;
     color: darkolivegreen;
+    background-color: lightgoldenrodyellow;
 
 }
 
@@ -94,13 +95,22 @@ h2 {
     box-sizing: border-box;
     height: 200px;
     width: 100%;
-    border: solid 10px darkolivegreen; 
+    border: double 10px darkolivegreen; 
     font-weight: 400px;
     text-align: center;
     font-size: xx-large;
     padding: 50px;
     color: darkolivegreen;
 
+}
+
+#customer-reviews h1 {
+
+    text-align: center;
+    font-size: x-large;
+    padding-top: 30px;
+    font-weight: 900px;
+    text-decoration: underline;
 }
 
 .testimonial-box {
@@ -118,7 +128,7 @@ h2 {
 footer {
     height: 150px; 
     width: 100%;
-    background-color: lightsalmon;
+    background-color: rgb(253, 231, 235);
 
 }
 
