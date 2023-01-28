@@ -84,7 +84,7 @@ h2 {
     height: 800px;
     width: 100%;
     background-color: lightgoldenrodyellow;
-    background-image: url("../images/pexels-polina-kovaleva-9095555(1).jpg");
+    background-image: url("../images/pexels-acharaporn-kamornboonyarush-1028704.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -128,7 +128,8 @@ h2 {
 footer {
     height: 150px; 
     width: 100%;
-    background-color: rgb(253, 231, 235);
+    background-color: antiquewhite;
+    color: darkolivegreen;
 
 }
 
@@ -140,22 +141,24 @@ footer {
     margin: auto;
     padding-right: 20px;
     padding-top: 20px;
+    color: darkolivegreen;
 
 }
 
 .form-section {
-    clear: left;
-    background: url("../images/pexels-polina-kovaleva-9095555(1).jpg")
+
+    background-image: url("../images/pexels-pixabay-209618.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 800px;
+    width: 100%;
     margin: auto;
 }
 
 .contact-us {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(85, 107, 47, 0.6);
     max-width: 400px;
     position: relative;
     left: 30%;
@@ -183,7 +186,12 @@ footer {
 
 .text-input:hover {
     
-    border-color: darkolivegreen;
+    border: 2px solid darkolivegreen;
+}
+
+textarea:hover {
+
+    border: 2px solid darkolivegreen;S
 }
 
 .contact-us-button {
@@ -203,3 +211,4 @@ footer {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
