@@ -96,6 +96,7 @@ h2 {
     height: 200px;
     width: 100%;
     border: double 10px darkolivegreen; 
+    background-color: antiquewhite;
     font-weight: 400px;
     text-align: center;
     font-size: xx-large;
@@ -104,25 +105,42 @@ h2 {
 
 }
 
+#customer-reviews {
+
+    background-color: antiquewhite;
+    background-image: url("assets/images/jennie-brown-MKBoRZEGeiM-unsplash.jpg");
+    background-position: center cover no-repeat;
+}
+
 #customer-reviews h1 {
 
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     padding-top: 30px;
+    padding-bottom: 30px;
     font-weight: 900px;
+    line-height: 1.25;
     text-decoration: underline;
 }
 
 .testimonial-box {
 
     height: 300px;
-    width: 20%;
+    width: 30%;
     display: inline-block;
     margin: 20px;
-    border: solid 1px darkolivegreen;
+    background-color: rgba(185, 201, 159, 0.3);
+    border: solid 4px darkolivegreen;
     box-sizing: border-box;
     text-align: center;
     padding: 20px;
+    overflow: scroll;
+}
+
+.testimonial-box h2 {
+
+    padding: 10px;
+
 }
 
 footer {
@@ -142,9 +160,11 @@ footer {
 
 .classic-cupcakes {
 
-    width: 30%;
+    width: 25%;
     text-align: center;
     padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
     padding-top: 10%;
     display: inline-block;
 
