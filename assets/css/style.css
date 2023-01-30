@@ -96,7 +96,7 @@ h2 {
     height: 200px;
     width: 100%;
     border: double 10px darkolivegreen; 
-    background-color: antiquewhite;
+    background-color: lightgoldenrodyellow;
     font-weight: 400px;
     text-align: center;
     font-size: xx-large;
@@ -107,9 +107,7 @@ h2 {
 
 #customer-reviews {
 
-    background-color: antiquewhite;
-    background-image: url("assets/images/jennie-brown-MKBoRZEGeiM-unsplash.jpg");
-    background-position: center cover no-repeat;
+    background-color: lightgoldenrodyellow;
 }
 
 #customer-reviews h1 {
@@ -129,7 +127,7 @@ h2 {
     width: 30%;
     display: inline-block;
     margin: 20px;
-    background-color: rgba(185, 201, 159, 0.3);
+    background-color: rgba(250, 218, 221, 0.3);
     border: solid 4px darkolivegreen;
     box-sizing: border-box;
     text-align: center;
