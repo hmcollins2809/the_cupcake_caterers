@@ -148,10 +148,13 @@ h2 {
 /*footer and social media links*/
 
 footer {
-    height: 150px; 
+    height: 100px; 
     width: 100%;
     background-color: antiquewhite;
     color: darkolivegreen;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 
 }
 
@@ -188,6 +191,11 @@ footer {
     display: inline-block;
     vertical-align: top;
 
+}
+
+.classic-cupcakes h4, p {
+
+    float: right;
 }
 
 #classic-flavours h2 {
@@ -318,6 +326,20 @@ textarea:hover {
     width: 75%;
     margin: 0 auto;
     clear: both;
+}
+
+#classic-flavours {
+
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.classic-cupcakes {
+    float: left;
+    clear: both;
+    padding: 2em;
+
 }
 }
 
