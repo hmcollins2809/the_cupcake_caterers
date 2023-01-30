@@ -186,6 +186,7 @@ footer {
     padding-bottom: 10%;
     padding-top: 10%;
     display: inline-block;
+    vertical-align: top;
 
 }
 
@@ -293,5 +294,48 @@ textarea:hover {
     
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/*Media Queries*/
+
+/*for medium and larger screen sizes from 1300px and down */
+
+@media screen and (max-width: 1300px) {
+
+#customer-reviews {
+    width: 75%;
+    height: 1300px;
+    margin: 0 auto;
+}
+
+.testimonial-box {
+    width: 100%;
+    clear: both;
+}
+
+#hero-outer {
+
+    width: 75%;
+    margin: 0 auto;
+    clear: both;
+}
+}
+
+/*For medium sizes 950px and down */
+
+@media screen and (max-width: 950px;) {
+
+    #customer-reviews {
+
+    }
+
+    .testimonial-box {
+
+
+    }
+
+    #hero-outer {
+
+    }
 }
 
