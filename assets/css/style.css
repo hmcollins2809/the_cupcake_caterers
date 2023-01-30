@@ -133,6 +133,37 @@ footer {
 
 }
 
+#classic-flavours {
+
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.classic-cupcakes {
+
+    width: 50%;
+    text-align: justify;
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+
+.classic-cupcakes h4 {
+
+
+}
+
+.classic-cupcakes img {
+
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
 .social-media-links {
 
     list-style: none;
