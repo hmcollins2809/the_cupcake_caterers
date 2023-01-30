@@ -45,6 +45,8 @@ h2 {
 
 }
 
+ /*logo and nav bar */
+
 #logo {
     float: left;
     font-size: 300%;
@@ -73,6 +75,8 @@ h2 {
 .menu a :hover {
     border-bottom: 1px solid darkolivegreen;
 }
+
+/*home page */
 
 #hero-outer {
 
@@ -141,6 +145,8 @@ h2 {
 
 }
 
+/*footer and social media links*/
+
 footer {
     height: 150px; 
     width: 100%;
@@ -148,6 +154,21 @@ footer {
     color: darkolivegreen;
 
 }
+
+.social-media-links {
+
+    list-style: none;
+    line-height: 20px;
+    float: right;
+    margin: auto;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: darkolivegreen;
+
+}
+
+
+/* "Our Cupcakes" page */
 
 #classic-flavours {
 
@@ -185,21 +206,11 @@ footer {
     width: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
-
-
 }
 
-.social-media-links {
+/*"Contact Us" page and form styling*/
 
-    list-style: none;
-    line-height: 20px;
-    float: right;
-    margin: auto;
-    padding-right: 20px;
-    padding-top: 20px;
-    color: darkolivegreen;
-
-}
+/*Note: code from the Love Running project was used as the basis for this form */
 
 #form-intro {
 
@@ -213,6 +224,7 @@ footer {
 
     text-align: center;
     border: 2px solid darkolivegreen;
+    background-color: white;
     
 }
 
@@ -228,10 +240,10 @@ footer {
 
 .contact-us {
     margin: 0 10% 0 0;
-    color: #fff;
+    color: antiquewhite;
     background-color: rgba(85, 107, 47, 0.6);
     max-width: 400px;
-    position: relative;
+    position: absolute;
     left: 30%;
     padding: 30px;
 }
@@ -246,7 +258,7 @@ footer {
 .text-input{
     
     background: whitesmoke;
-    color: #fafafa;
+    color: black;
     width: 50%;
     height: 25px;
     margin: 5px 0 20px 0;
